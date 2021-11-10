@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <body>
+            <h1 class="titleName"> WEATHER REPORT </h1>
+            <div class="center main">
+                <input type="text" id="num" class="inputButton" placeholder="Enter the city" >
+                <button type="submit" class="button" id="btn" onclick="getWeatherReport()">SUBMIT</button>
+
+            </div>
+
+            <div class="display center">
+                <h1 class="data" id="name"></h1>&nbsp;&nbsp;
+                <video id= "video" class="video" width="320" height="240"  autoplay playsinline >
+                    <source  src="" type="video/mp4">
+                </video>
+                <p class="data" id="desc"></p>&nbsp;&nbsp;
+                <p class="data" id="temp"></p>
+            </div>
+        </body>
+    </head>
+</html>
